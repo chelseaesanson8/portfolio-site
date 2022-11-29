@@ -57,41 +57,40 @@ body {
 }
 
 h1 {
-    font-family: 'JetBrains Mono', monospace; 
+    font-family: 'JetBrains Mono', monospace;
     font-size: 30px;
-    padding: 1em; 
-    text-align: center;
+    padding: 1em;
 
 }
 
 h2 {
     font-family: 'JetBrains Mono', monospace;
     font-size: 25px;
-    padding: 1em; 
-    
+    padding: 1em;
+
 
 }
 
-h3{
+h3 {
     font-family: 'JetBrains Mono', monospace;
-    font-size: 15px; 
-    padding-left: 2em; 
+    font-size: 15px;
+    padding-left: 2em;
 }
 
 
-.education{
+.education {
     width: 50%;
 }
 
-.experience{
+.experience {
     width: 50%;
 }
 
-.interests{
-    width: 50%; 
+.interests {
+    width: 50%;
 }
 
-.contact{
+.contact {
     width: 50%;
     display: inline;
     list-style: none;
@@ -99,6 +98,9 @@ h3{
     align-items: center;
 }
 
-.contact-logo{
+
+.contact-images {
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
