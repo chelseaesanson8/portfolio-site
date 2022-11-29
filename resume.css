@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#nav {
+    background-color: rgb(33, 37, 41);
+    width: 100%;
+
+    position: sticky;
+
+
+}
+
+.nav {
+    margin: 0;
+
+
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.nav>li {
+    display: inline-block;
+    padding: 10px 9px 10px 9px;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', monospace;
+
+
+}
+
+.nav>li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px 0px 5px 0px;
+}
+
+.nav>li>a:hover {
+    color: black;
+}
+
+.logo-image {
+    max-width: 5%;
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace; 
+    font-size: 30px;
+    padding: 1em; 
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 25px;
+    padding: 1em; 
+    
+
+}
+
+h3{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 15px; 
+    padding-left: 2em; 
+}
+
+
+.education{
+    width: 50%;
+}
+
+.experience{
+    width: 50%;
+}
+
+.interests{
+    width: 50%; 
+}
+
+.contact{
+    width: 50%;
+    display: inline;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-logo{
+    align-items: center;
+}

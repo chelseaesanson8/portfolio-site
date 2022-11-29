@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+}
+
+.clear {
+    clear: both;
+}
+
+
+#nav {
+    background-color: rgb(33, 37, 41);
+    width: 100%;
+
+    position: sticky;
+
+
+}
+
+.nav {
+    margin: 0;
+
+
+    display: flex;
+    justify-content: right;
+
+
+}
+
+.nav>li {
+    display: inline-block;
+    padding: 10px 9px 10px 9px;
+    font-size: 40px;
+    font-family: 'JetBrains Mono', monospace;
+
+
+}
+
+.nav>li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 5px 0px 5px 0px;
+}
+
+.nav>li>a:hover {
+    color: black;
+}
+
+.logo-image {
+    max-width: 5%;
+}
+
+h1 {
+    display: flex;
+    font-family: 'JetBrains Mono', monospace;
+
+    padding: 1em;
+    margin: 1em;
+
+    font-size: 30px;
+
+}
+
+h2 {
+    display: flex;
+    font-family: 'JetBrains Mono', monospace;
+
+    padding: 1em;
+    margin: 1em;
+
+    font-size: 30px;
+
+    justify-content: center;
+    text-align: center;
+
+}
+
+.mernLogos {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.logos {
+    display: inline-block;
+    width: 100px;
+    height: 100px; 
+
+    animation-name: floating;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-top: 5px;
+
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
