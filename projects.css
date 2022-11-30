@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.header {
+    background-color: rgb(33, 37, 41);
+    box-shadow: 1px 1px 5px 0px var(gray);
+    top: 0;
+    width: 100%;
+
+}
+
+.logo {
+    display: inline-block;
+    margin-left: 10px;
+    width: 75px;
+}
+
+.nav {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 37, 41);
+    overflow: hidden;
+
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.menu a {
+    display: block;
+    padding: 15px;
+    color: white;
+}
+
+.menu a:hover {
+    background-color: grey;
+}
+
+.nav {
+    max-height: 0;
+    transition: max-height .5s ease-out;
+}
+
+.hamb {
+    cursor: pointer;
+    float: right;
+    padding: 40px 20px;
+}
+
+.hamb-line {
+    background: white;
+    display: block;
+    height: 2px;
+    position: relative;
+    width: 24px;
+}
+
+.hamb-line::before,
+.hamb-line::after {
+    background: white;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.hamb-line::before {
+    top: 5px;
+}
+
+.hamb-line::after {
+    top: 5px;
+}
+
+.side-menu {
+    display: none;
+}
+
+.side-menu:checked~nav {
+    max-height: 100%;
+}
+
+.side-menu:checked~.hamb .hamb-line {
+    background: transparent;
+}
+
+.side-menu:checked~.hamb .hamb-line::before {
+    transform: rotate(-45deg);
+    top: 0;
+}
+
+.side-menu:checked~.hamb .hamb-line::after {
+    transform: rotate(45deg);
+    top: 0;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        max-height: none;
+        top: 0;
+        position: relative;
+        float: right;
+        width: fit-content;
+        background-color: transparent;
+    }
+
+    .menu li {
+        float: left;
+    }
+
+    .menu a:hover {
+        background-color: transparent;
+        color: grey;
+    }
+
+    .hamb {
+        display: none;
+    }
+}
+
+h1 {
+    font-size: 30px;
+    padding: 1em;
+
+}
+
+h2 {
+    font-size: 15px;
+}
+
+p {
+    font-size: 10px;
+}
+
+.card {
+    max-width: 500px;
+    min-width: 500px;
+
+    border: 4px solid rgb(33, 37, 41);
+    border-radius: 8px;
+
+    background-color: rgb(33, 37, 41);
+
+    color: white;
+
+    padding: 2em;
+
+    margin: 2em;
+}
+
+button {
+    font-family: 'JetBrains Mono', monospace;
+    color: black;
+    background-color: grey;
+    border: 2px solid gray;
+    border-radius: 4px;
+
+    width: 100%;
+
+}
+
+.card button:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .card {
+        max-width: 250px;
+        min-width: 250px;
+
+        border: 4px solid rgb(33, 37, 41);
+        border-radius: 8px;
+
+        background-color: rgb(33, 37, 41);
+
+        color: white;
+
+        padding: 2em;
+
+        margin: 2em;
+    }
+}
+
