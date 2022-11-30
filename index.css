@@ -102,7 +102,7 @@ ul {
 }
 
 .side-menu:checked~.hamb .hamb-line::after {
-    tranform: rotate(45deg);
+    transform: rotate(45deg);
     top: 0;
 }
 
