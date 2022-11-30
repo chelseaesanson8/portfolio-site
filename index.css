@@ -156,15 +156,15 @@ h2 {
 
 .mernLogos {
     display: flex;
+    align-items: center;
     justify-content: center;
 
 }
 
 
 .logos {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
 
     animation-name: floating;
     animation-duration: 8s;
