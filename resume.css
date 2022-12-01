@@ -175,3 +175,11 @@ h3 {
     justify-content: center;
 
 }
+
+.contact-logo{
+    padding: 0.5em; 
+}
+
+.contact h2{
+    padding: 0;
+}
