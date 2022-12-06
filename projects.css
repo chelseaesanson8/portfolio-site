@@ -165,7 +165,7 @@ button {
     font-family: 'JetBrains Mono', monospace;
     color: black;
     background-color: grey;
-    border: 2px solid gray;
+    border: 2px solid grey;
     border-radius: 4px;
 
     width: 100%;
@@ -192,9 +192,8 @@ button {
 
         margin: 2em;
 
-        display: flex; 
+        display: flex;
         align-items: center;
         justify-content: center;
     }
 }
-
