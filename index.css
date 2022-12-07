@@ -189,3 +189,50 @@ h2 {
         transform: translate(0, -0px);
     }
 }
+
+footer {
+    font-family: 'JetBrains Mono', monospace;
+
+    position: fixed;
+    bottom: 0px;
+
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 25px;
+    width: 25px;
+
+    padding: 3px;
+
+    display: inline-block;
+    margin:5px;
+
+
+
+}
+
+.footer-logo:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 10px;
+    }
+
+    .logos {
+        height: 50px;
+        width: 50px;
+    }
+
+    .footer-logo{
+        height: 15px;
+        width: 15px;
+    }
+}
+

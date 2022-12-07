@@ -198,7 +198,8 @@ textarea {
 
 }
 
-button:hover{
-    background-color: grey;
+button:hover {
+    background-color: rgb(117, 241, 59);
     transition: 0.7s;
+    border-color: rgb(117, 241, 59);
 }

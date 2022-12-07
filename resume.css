@@ -176,10 +176,14 @@ h3 {
 
 }
 
-.contact-logo{
-    padding: 0.5em; 
+.contact-logo {
+    padding: 0.5em;
 }
 
-.contact h2{
+.contact h2 {
     padding: 0;
+}
+
+.contact-logo:hover {
+    opacity: 0.5;
 }
