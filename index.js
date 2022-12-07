@@ -13,4 +13,10 @@ function typingEffect(element, speed) {
 }
 
 const h1 = document.querySelector('h1');
+
 typingEffect(h1, 150);
+
+
+function pictureRc() {
+    alert("Thanks for visiting my portfolio site!")
+}
